@@ -5,7 +5,7 @@ $(document).ready(function() {
     dom_id: '#livesearch_dom',
     loading_css: '#livesearch_loading',
     onInitSearch: function() {
-      console.log("search init");
+      console.log("search init:" + this.url);
     },
     onStartSearch: function() {
       console.log("search start");
@@ -20,7 +20,7 @@ $(document).ready(function() {
     dom_id: '#livesearch_user_dom',
     loading_css: '#livesearch_user_loading',
     onInitSearch: function() {
-      console.log("user init");
+      console.log("user init:" + this.url);
     },
     onStartSearch: function() {
       console.log("user start");
@@ -35,7 +35,7 @@ $(document).ready(function() {
     dom_id: '#livesearch_badge_dom',
     loading_css: '#livesearch_badge_loading',
     onInitSearch: function() {
-      console.log("badge init");
+      console.log("badge init:" + this.url);
     },
     onStartSearch: function() {
       console.log("badge start");
